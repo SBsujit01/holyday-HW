@@ -1,0 +1,274 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: black;
+    color: #fff;
+}
+/*header start*/
+header{
+	width: 100%; 
+}
+.wrapper{
+    font-family: sans-serif;
+    width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.logo{
+
+    width: 18%;
+    float: left;
+}
+ .logo img{
+ 	width: 100%;
+ }
+ .clint-log{
+ 	float: right;
+ }
+ .bt1{
+ 	height: 35px;
+ 	color: #000000;
+ 	background: #fff;
+ 	border: none;
+ 	cursor: pointer;
+ 	padding: 0px 10px;
+ }
+ .bt2{
+ 	height: 35px;
+ 	color: #fff;
+ 	background: #0078BD;
+ 	border: none;
+ 	cursor: pointer;
+ 	padding: 0px 10px;
+ }
+ .bt2:hover{
+ 	height: 35px;
+    background: black;
+    color: #0078BD;
+ 	border: none;
+ 	cursor: pointer;
+ 	padding: 0px 10px;
+ }
+ .bt1:hover{
+ 	height: 35px;
+ 	background: black;
+    color: #0078BD;
+ 	border: none;
+ 	cursor: pointer;
+ 	padding: 0px 10px;
+ }
+ .fa-lock{
+ 	font-size: 20px;
+ 	padding: 0px 5px;
+ }
+ nav{
+ 	width: 70%;
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: 20px;
+ }
+nav ul{
+	list-style: none;
+    float: right;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a{
+	text-decoration: none;
+    padding: 0px 12px;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .5s;
+}
+nav ul li:nth-child(1) a{
+    color: #0078BD;
+}
+nav ul li a:hover{
+    color: #0078BD;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background: 
+    url(../images/blue-banar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+}
+.banner-content{
+    max-width: 52%;
+    padding: 30px 25px 25px;
+    margin-top: 200px;
+    margin-bottom: 130px;
+}
+.banner h2{
+    font-weight: 100;
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    
+}
+.banner h1{
+    margin: 0px;
+    font-size: 45px;
+    color: #0078BD;
+}
+.banner p{
+    font-size: 18px;
+}
+.banner button{
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s
+}
+.banner button:hover{
+    background: black;
+    color: #0078BD;
+}
+.banner button .far{
+    margin-left: 10px;
+}
+/*banner end*/
+/*sec-1 start*/
+.single{
+    max-width: 28%;
+    float: left;
+    display: inline-block;
+    margin: 50px 0px 40px 40px;
+}
+.single:hover{
+    box-shadow: 2px 2px 20px 5px #fff;
+}
+.single img{
+    cursor: pointer;
+}
+.high{
+    margin-top: 10px;
+}
+.single h2{
+    display: inline-block;
+    font-size: 20px;
+}
+.single p{
+    font-size: 15px;
+    line-height: 24px;
+}
+.clor{
+    color: #0078BD;
+}
+/*sec-1 end*/
+/*sec-2 start*/
+.sec-2{
+    max-width: 28%;
+    float: left;
+    display: inline-block;
+    margin:60px 0px 20px 40px;
+    position: relative;
+}
+.sec-2:hover{
+    box-shadow: 2px 2px 20px 5px #fff;
+}
+.sec-2 h4{
+    font-size: 20px;
+}
+.sec-2 p{
+    font-size: 12px;
+    line-height: 24px;
+}
+.sec-2 address{
+    font-size: 12px;
+    line-height: 24px;
+}
+.sec-2 address a{
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px 5px #0078BD;
+}
+.mob{
+    overflow: hidden;
+}
+.mobile{
+    width: 40%;
+    padding: 10px 0px;
+     float: left;
+}
+.mobile img{
+    width: 100%;
+	cursor: pointer;
+}
+.mobile-btn{
+    width: 58%;
+    float: left;
+}
+
+#size{
+    font-size: 25px;
+}
+.mobile-btn button{
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 1s
+}
+.mobile-btn button:hover{
+    background: black;
+    color: #0078BD;
+}
+.fa-mobile{
+    float: left;
+    font-size: 25px;
+    padding:5px 3px 0px 0px;
+}
+
+
+/*sec-2 end*/
+/*footer start*/
+.footer{
+    margin: 60px 0px 20px;
+   overflow: hidden;
+}
+.footer-l{
+    max-width: 75%;
+    float: left;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    float: left;
+}
+.footer ul li a{
+    text-decoration: none;
+    padding: 0px 8px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    margin-left: 50px;
+}
+.footer-logo{
+    max-width: 30%;
+    margin-top: 40px;
+    float: right;
+    
+}
+.footer-logo img{
+    width: 100%;
+    cursor: pointer;
+}
+/*footer end*/
